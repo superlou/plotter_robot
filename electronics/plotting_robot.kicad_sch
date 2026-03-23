@@ -5,6 +5,391 @@
 	(uuid "8ab1d563-03d3-47af-a68f-54116951f57e")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Barrel_Jack_Switch"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Barrel_Jack_Switch"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 1.27 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "DC Barrel Jack with an internal switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "DC power barrel jack connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "BarrelJack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Barrel_Jack_Switch_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 1.905)
+					(mid -3.9343 2.54)
+					(end -3.302 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 1.905)
+					(mid -3.9343 2.54)
+					(end -3.302 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.286) (xy 1.905 -1.651)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.683 3.175)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 1.27 0) (xy 1.27 -2.286) (xy 0.635 -1.651)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Barrel_Jack_Switch_1_1"
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Library:esp32-c3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2811,6 +3196,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5VP"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5VP"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5VP\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5VP_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5VP_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2935,6 +3445,23 @@
 		)
 		(uuid "1b1dd902-81a9-4913-a0c5-f710be250a6c")
 	)
+	(text "DO NOT JUMP J5 WHEN\nUSB IS CONNECTED"
+		(exclude_from_sim no)
+		(at 120.65 119.126 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 33 1)
+			)
+		)
+		(uuid "5d7c4efe-ad9b-47b1-a30a-151aa1da28e1")
+	)
+	(junction
+		(at 102.87 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57360762-c221-4682-a1a7-818bb37502d8")
+	)
 	(junction
 		(at 139.7 73.66)
 		(diameter 0)
@@ -2954,13 +3481,13 @@
 		(uuid "8a5d323e-5dca-4a29-8a9b-6a16445e21f5")
 	)
 	(junction
-		(at 63.5 109.22)
+		(at 34.29 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae8e6a25-43ba-421f-b4b0-888935e092f1")
 	)
 	(junction
-		(at 86.36 109.22)
+		(at 57.15 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3d31fc6-4a9c-4277-9b5a-e6d917b5d611")
@@ -3051,6 +3578,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 111.76) (xy 109.22 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18741152-4036-4181-85b6-09ba3e3e1a2a")
+	)
+	(wire
+		(pts
 			(xy 222.25 80.01) (xy 237.49 80.01)
 		)
 		(stroke
@@ -3068,16 +3605,6 @@
 			(type default)
 		)
 		(uuid "21cd9a42-d4c8-4787-be09-eedbc5a1ade0")
-	)
-	(wire
-		(pts
-			(xy 99.06 91.44) (xy 102.87 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "239dcc54-f5cb-4bd8-8a8d-203fb1cfaada")
 	)
 	(wire
 		(pts
@@ -3211,13 +3738,23 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 109.22) (xy 86.36 107.95)
+			(xy 57.15 107.95) (xy 57.15 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "48cae594-e1bb-4aee-ac14-f43709c1873d")
+	)
+	(wire
+		(pts
+			(xy 102.87 109.22) (xy 102.87 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cf5ae45-4bb7-461d-9e52-df0af1120a1d")
 	)
 	(wire
 		(pts
@@ -3321,6 +3858,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 111.76) (xy 118.11 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88f28106-8e6d-47f9-861f-a41e4118ef68")
+	)
+	(wire
+		(pts
 			(xy 237.49 90.17) (xy 234.95 90.17)
 		)
 		(stroke
@@ -3331,7 +3878,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 109.22) (xy 63.5 109.22)
+			(xy 43.18 107.95) (xy 34.29 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3451,6 +3998,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 111.76) (xy 96.52 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdc9b5dc-bb36-4ccd-bc81-c04a4911e87a")
+	)
+	(wire
+		(pts
 			(xy 132.08 63.5) (xy 123.19 63.5)
 		)
 		(stroke
@@ -3468,6 +4025,26 @@
 			(type default)
 		)
 		(uuid "c0c9538e-a6ec-46fd-83b3-5154dea2e666")
+	)
+	(wire
+		(pts
+			(xy 111.76 111.76) (xy 118.11 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c779bf3a-c95e-4b38-a286-a2377f052308")
+	)
+	(wire
+		(pts
+			(xy 96.52 116.84) (xy 100.33 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbfb2035-7239-46e6-8a99-44692bf25aa2")
 	)
 	(wire
 		(pts
@@ -3521,6 +4098,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 91.44) (xy 102.87 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6c06c2e-9c32-44b5-a31b-870030db2e38")
+	)
+	(wire
+		(pts
 			(xy 99.06 78.74) (xy 111.76 78.74)
 		)
 		(stroke
@@ -3541,7 +4128,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 109.22) (xy 86.36 109.22)
+			(xy 66.04 107.95) (xy 57.15 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3581,7 +4168,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 109.22) (xy 63.5 107.95)
+			(xy 34.29 107.95) (xy 34.29 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3770,17 +4357,17 @@
 		(uuid "fd3e0bdd-4e08-4df4-8721-0c9b49b927e1")
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 241.3 99.06 0)
+		(lib_id "power:+5VP")
+		(at 102.87 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "00c01415-e21b-4ad3-a901-21e237e9d39e")
-		(property "Reference" "#PWR026"
-			(at 241.3 102.87 0)
+		(uuid "0413c04c-c727-4ec5-aac9-179ced61676d")
+		(property "Reference" "#PWR019"
+			(at 102.87 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3788,8 +4375,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 241.3 93.98 0)
+		(property "Value" "+5VP"
+			(at 102.87 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3797,7 +4384,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 99.06 0)
+			(at 102.87 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3806,7 +4393,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 99.06 0)
+			(at 102.87 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3814,75 +4401,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 241.3 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "837bf0a7-298e-43bc-9db3-8e884e5891c2")
-		)
-		(instances
-			(project "plotting_robot"
-				(path "/8ab1d563-03d3-47af-a68f-54116951f57e"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 102.87 91.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "04544e9b-362c-4e4b-8629-a08d91c698a5")
-		(property "Reference" "#PWR013"
-			(at 99.06 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 106.68 91.4399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 102.87 91.44 0)
+		(property "Description" "Power symbol creates a global label with name \"+5VP\""
+			(at 102.87 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3891,12 +4411,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "5a6f2a3c-3f8c-4ace-9232-12aea406327f")
+			(uuid "2c34a86f-0f1e-48ce-970f-19bc77ff36e0")
 		)
 		(instances
 			(project "plotting_robot"
 				(path "/8ab1d563-03d3-47af-a68f-54116951f57e"
-					(reference "#PWR013")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -3904,7 +4424,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 97.79 116.84 0)
+		(at 66.04 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3913,7 +4433,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e3abaf2-d110-4bc3-9b13-e7dee0c15ab4")
 		(property "Reference" "#PWR016"
-			(at 97.79 123.19 0)
+			(at 66.04 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3922,7 +4442,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 121.92 0)
+			(at 66.04 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3930,7 +4450,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 116.84 0)
+			(at 66.04 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3939,7 +4459,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 116.84 0)
+			(at 66.04 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3948,7 +4468,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 116.84 0)
+			(at 66.04 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3963,6 +4483,207 @@
 			(project "plotting_robot"
 				(path "/8ab1d563-03d3-47af-a68f-54116951f57e"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VP")
+		(at 234.95 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "123a591b-f661-4048-b771-d81fd707c24e")
+		(property "Reference" "#PWR03"
+			(at 238.76 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VP"
+			(at 231.14 46.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VP\""
+			(at 234.95 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35a6ff64-88bd-4762-bfb3-0b881fc6806f")
+		)
+		(instances
+			(project "plotting_robot"
+				(path "/8ab1d563-03d3-47af-a68f-54116951f57e"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VP")
+		(at 223.52 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18b1ce38-ba1c-4078-9753-f996c5a97262")
+		(property "Reference" "#PWR05"
+			(at 219.71 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VP"
+			(at 227.33 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VP\""
+			(at 223.52 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a86fb3f-a3d8-4040-a6f3-1826d0e582a7")
+		)
+		(instances
+			(project "plotting_robot"
+				(path "/8ab1d563-03d3-47af-a68f-54116951f57e"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VP")
+		(at 148.59 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b0df017-54d8-4617-8c05-9d28ddd56461")
+		(property "Reference" "#PWR029"
+			(at 152.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VP"
+			(at 144.78 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VP\""
+			(at 148.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59c4ca92-0b1a-4cc9-a011-1a8bf274dae4")
+		)
+		(instances
+			(project "plotting_robot"
+				(path "/8ab1d563-03d3-47af-a68f-54116951f57e"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -4270,141 +4991,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 151.13 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22b421e9-0a51-42be-a250-1209af0f3898")
-		(property "Reference" "#PWR019"
-			(at 151.13 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 151.13 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 151.13 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "89c91be3-4ea5-4bb3-9ae9-02943e0af7eb")
-		)
-		(instances
-			(project "plotting_robot"
-				(path "/8ab1d563-03d3-47af-a68f-54116951f57e"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 223.52 54.61 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ba67b7e-af94-4c42-a9b5-cc74a2392a6b")
-		(property "Reference" "#PWR05"
-			(at 219.71 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 227.33 54.6099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 223.52 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "343672fa-b20d-4cdc-8fba-4aaa9e8f5ff0")
-		)
-		(instances
-			(project "plotting_robot"
-				(path "/8ab1d563-03d3-47af-a68f-54116951f57e"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:1206,10uF")
-		(at 86.36 113.03 0)
+		(at 57.15 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4413,7 +5001,7 @@
 		(fields_autoplaced yes)
 		(uuid "2de7dca7-5ea9-413e-a51d-6920fed2a5f0")
 		(property "Reference" "C5"
-			(at 88.9 110.4899 0)
+			(at 59.69 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4422,7 +5010,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 88.9 113.03 0)
+			(at 59.69 111.76 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -4431,7 +5019,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_1206"
-			(at 84.582 113.03 90)
+			(at 55.372 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4440,7 +5028,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf"
-			(at 86.36 113.03 0)
+			(at 57.15 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4449,7 +5037,7 @@
 			)
 		)
 		(property "Description" "50V 10uF X5R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 86.36 113.03 0)
+			(at 57.15 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4458,7 +5046,7 @@
 			)
 		)
 		(property "LCSC" "C13585"
-			(at 86.36 113.03 0)
+			(at 57.15 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4467,7 +5055,7 @@
 			)
 		)
 		(property "Stock" "3698334"
-			(at 86.36 113.03 0)
+			(at 57.15 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4476,7 +5064,7 @@
 			)
 		)
 		(property "Price" "0.035USD"
-			(at 86.36 113.03 0)
+			(at 57.15 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4485,7 +5073,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 86.36 113.03 0)
+			(at 57.15 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4494,7 +5082,7 @@
 			)
 		)
 		(property "Minimum Qty" "5"
-			(at 86.36 113.03 0)
+			(at 57.15 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4503,7 +5091,7 @@
 			)
 		)
 		(property "Attrition Qty" "4"
-			(at 86.36 113.03 0)
+			(at 57.15 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4512,7 +5100,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 86.36 113.03 0)
+			(at 57.15 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4521,7 +5109,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 86.36 113.03 0)
+			(at 57.15 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4530,7 +5118,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 86.36 113.03 0)
+			(at 57.15 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4539,7 +5127,7 @@
 			)
 		)
 		(property "Part" "CL31A106KBHNNNE"
-			(at 86.36 113.03 0)
+			(at 57.15 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4548,7 +5136,7 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 88.9 115.57 0)
+			(at 59.69 114.3 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -4557,7 +5145,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 86.36 113.03 0)
+			(at 57.15 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4566,7 +5154,7 @@
 			)
 		)
 		(property "Capacitance" "10uF"
-			(at 86.36 113.03 0)
+			(at 57.15 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4575,7 +5163,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X5R"
-			(at 86.36 113.03 0)
+			(at 57.15 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4600,7 +5188,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 116.84 0)
+		(at 57.15 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4609,7 +5197,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ea4bff9-bb08-4fad-9b68-ffdb7980a17c")
 		(property "Reference" "#PWR015"
-			(at 86.36 123.19 0)
+			(at 57.15 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4618,7 +5206,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 121.92 0)
+			(at 57.15 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4626,7 +5214,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 116.84 0)
+			(at 57.15 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4635,7 +5223,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 116.84 0)
+			(at 57.15 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4644,7 +5232,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 116.84 0)
+			(at 57.15 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4659,6 +5247,73 @@
 			(project "plotting_robot"
 				(path "/8ab1d563-03d3-47af-a68f-54116951f57e"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VP")
+		(at 223.52 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3460e8f7-572b-4c2c-9fad-0c3516ecbc40")
+		(property "Reference" "#PWR030"
+			(at 219.71 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VP"
+			(at 227.33 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VP\""
+			(at 223.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9081a25a-9540-4777-9c37-51b2b7aac26b")
+		)
+		(instances
+			(project "plotting_robot"
+				(path "/8ab1d563-03d3-47af-a68f-54116951f57e"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -4798,7 +5453,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 116.84 0)
+		(at 34.29 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4807,7 +5462,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ee8c5cf-17e0-4f7c-977b-ed91fd787d6e")
 		(property "Reference" "#PWR06"
-			(at 63.5 123.19 0)
+			(at 34.29 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4816,7 +5471,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 121.92 0)
+			(at 34.29 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4824,7 +5479,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 116.84 0)
+			(at 34.29 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4833,7 +5488,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 116.84 0)
+			(at 34.29 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4842,7 +5497,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 116.84 0)
+			(at 34.29 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4857,6 +5512,72 @@
 			(project "plotting_robot"
 				(path "/8ab1d563-03d3-47af-a68f-54116951f57e"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VP")
+		(at 241.3 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4016c3b0-d98b-48eb-8dfa-7d20ae09aef8")
+		(property "Reference" "#PWR031"
+			(at 241.3 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VP"
+			(at 241.3 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VP\""
+			(at 241.3 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b58eac1d-231d-4b27-97d8-6360e007e691")
+		)
+		(instances
+			(project "plotting_robot"
+				(path "/8ab1d563-03d3-47af-a68f-54116951f57e"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -4920,7 +5641,7 @@
 			(uuid "1daf8175-469a-40c1-8284-600ec8c8f8e5")
 		)
 		(instances
-			(project ""
+			(project "plotting_robot"
 				(path "/8ab1d563-03d3-47af-a68f-54116951f57e"
 					(reference "#PWR02")
 					(unit 1)
@@ -5321,6 +6042,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5VP")
+		(at 241.3 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48cc6138-d2dd-499e-b143-fe360a54f2cf")
+		(property "Reference" "#PWR017"
+			(at 241.3 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VP"
+			(at 241.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VP\""
+			(at 241.3 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd639afe-a430-4067-ae70-96213c61e954")
+		)
+		(instances
+			(project "plotting_robot"
+				(path "/8ab1d563-03d3-47af-a68f-54116951f57e"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0805,100nF")
 		(at 252.73 60.96 0)
 		(unit 1)
@@ -5517,139 +6304,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 148.59 76.2 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5116b40f-cca2-437e-8695-7132fcff12a3")
-		(property "Reference" "#PWR017"
-			(at 152.4 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 144.78 76.1999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 148.59 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5282aa7f-543b-4fb0-aadf-a0580b2f958c")
-		)
-		(instances
-			(project "plotting_robot"
-				(path "/8ab1d563-03d3-47af-a68f-54116951f57e"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 241.3 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c536026-bd59-4ea6-a1e2-f4b5fa9168f2")
-		(property "Reference" "#PWR07"
-			(at 241.3 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 241.3 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 241.3 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee24c7aa-6bc2-4ed5-a424-1d9924d8d7cc")
-		)
-		(instances
-			(project "plotting_robot"
-				(path "/8ab1d563-03d3-47af-a68f-54116951f57e"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 252.73 64.77 0)
 		(unit 1)
@@ -5710,6 +6364,72 @@
 			(project "plotting_robot"
 				(path "/8ab1d563-03d3-47af-a68f-54116951f57e"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73a4409c-176b-4ec1-a7e2-2f76cb0e2d04")
+		(property "Reference" "#PWR025"
+			(at 100.33 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c855e0ec-16c2-4db2-b65e-405b7c7ffe62")
+		)
+		(instances
+			(project "plotting_robot"
+				(path "/8ab1d563-03d3-47af-a68f-54116951f57e"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -5978,73 +6698,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 234.95 90.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e9b6842-42d3-48d0-8610-8c02a7ddf697")
-		(property "Reference" "#PWR025"
-			(at 238.76 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 231.14 90.1699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 234.95 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4232b7ee-9d52-405b-8fdf-6521ce4a9692")
-		)
-		(instances
-			(project "plotting_robot"
-				(path "/8ab1d563-03d3-47af-a68f-54116951f57e"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0805,100nF")
 		(at 252.73 104.14 0)
 		(unit 1)
@@ -6242,16 +6895,16 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 234.95 46.99 90)
+		(at 102.87 91.44 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8746ea51-7e08-4395-8d50-af8d0e0cd026")
-		(property "Reference" "#PWR03"
-			(at 238.76 46.99 0)
+		(uuid "8629ecd4-2c8a-46a0-aaed-3fd099b23067")
+		(property "Reference" "#PWR013"
+			(at 99.06 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6260,7 +6913,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 231.14 46.9899 90)
+			(at 106.68 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6269,7 +6922,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 46.99 0)
+			(at 102.87 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6278,7 +6931,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 46.99 0)
+			(at 102.87 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6287,7 +6940,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 234.95 46.99 0)
+			(at 102.87 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6296,38 +6949,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "e8e3d552-5d31-4e57-b8a3-b215bd30c2ff")
+			(uuid "a94661cc-fce4-45dd-a6d4-38b6d1b4a8ac")
 		)
 		(instances
 			(project "plotting_robot"
 				(path "/8ab1d563-03d3-47af-a68f-54116951f57e"
-					(reference "#PWR03")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 223.52 97.79 270)
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 109.22 106.68 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b7b9f16-eb34-4c99-a2fe-6f77c9d3b316")
-		(property "Reference" "#PWR024"
-			(at 219.71 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 227.33 97.7899 90)
+		(uuid "8d2dd462-7603-4a6d-a33b-2f1e566ba3b8")
+		(property "Reference" "J5"
+			(at 110.998 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6335,8 +6979,17 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 223.52 97.79 0)
+		(property "Value" "Conn_01x02_Pin"
+			(at 123.19 113.538 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 109.22 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6344,8 +6997,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 223.52 97.79 0)
+		(property "Datasheet" "~"
+			(at 109.22 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6353,22 +7006,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 223.52 97.79 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 109.22 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "2"
+			(uuid "a0c4ce78-43bc-4943-a492-62c1d4afbff5")
 		)
 		(pin "1"
-			(uuid "3ad96005-98e9-46f2-9ec2-8af46e603d2b")
+			(uuid "932b6da2-6f6a-481c-acfa-c202d4a00b3d")
 		)
 		(instances
 			(project "plotting_robot"
 				(path "/8ab1d563-03d3-47af-a68f-54116951f57e"
-					(reference "#PWR024")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -6376,7 +7032,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 74.93 116.84 0)
+		(at 43.18 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6385,7 +7041,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f26feb2-9686-4369-8243-6ad3b890e8a2")
 		(property "Reference" "#PWR09"
-			(at 74.93 123.19 0)
+			(at 43.18 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6394,7 +7050,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 121.92 0)
+			(at 43.18 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6402,7 +7058,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 116.84 0)
+			(at 43.18 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6411,7 +7067,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 116.84 0)
+			(at 43.18 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6420,7 +7076,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 116.84 0)
+			(at 43.18 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6532,7 +7188,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:esp32_c3_oled"
 			(at 71.12 73.66 0)
 			(effects
 				(font
@@ -6634,7 +7290,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "B5B-XH-A(LF)(SN)"
 			(at 255.27 86.3599 0)
 			(effects
 				(font
@@ -6643,7 +7299,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical"
 			(at 247.904 77.216 0)
 			(effects
 				(font
@@ -6662,6 +7318,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 237.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C157991"
 			(at 237.49 80.01 0)
 			(effects
 				(font
@@ -6689,6 +7354,72 @@
 			(project "plotting_robot"
 				(path "/8ab1d563-03d3-47af-a68f-54116951f57e"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VP")
+		(at 151.13 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a422d4ed-94ea-492f-955c-11bb499fc90c")
+		(property "Reference" "#PWR024"
+			(at 151.13 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VP"
+			(at 151.13 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VP\""
+			(at 151.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ebb63b5-eb52-4f76-8078-ef64afb582d6")
+		)
+		(instances
+			(project "plotting_robot"
+				(path "/8ab1d563-03d3-47af-a68f-54116951f57e"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -6937,7 +7668,7 @@
 			(uuid "4b7d4543-70c1-4503-a7e7-5e9076b85640")
 		)
 		(instances
-			(project ""
+			(project "plotting_robot"
 				(path "/8ab1d563-03d3-47af-a68f-54116951f57e"
 					(reference "Q2")
 					(unit 1)
@@ -7004,7 +7735,7 @@
 			(uuid "87d4320b-1afa-498d-996e-91254c9eef45")
 		)
 		(instances
-			(project ""
+			(project "plotting_robot"
 				(path "/8ab1d563-03d3-47af-a68f-54116951f57e"
 					(reference "#PWR010")
 					(unit 1)
@@ -7236,6 +7967,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5VP")
+		(at 234.95 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf29f65d-b808-4b80-86cc-7dd1ae396a91")
+		(property "Reference" "#PWR07"
+			(at 238.76 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VP"
+			(at 231.14 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VP\""
+			(at 234.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc28e95b-a9a0-43f5-943a-976c89b8c7f7")
+		)
+		(instances
+			(project "plotting_robot"
+				(path "/8ab1d563-03d3-47af-a68f-54116951f57e"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 148.59 80.01 0)
 		(unit 1)
@@ -7303,7 +8101,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 86.36 107.95 0)
+		(at 57.15 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7312,7 +8110,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1e969ba-8115-452f-a877-55784b90deeb")
 		(property "Reference" "#PWR014"
-			(at 86.36 111.76 0)
+			(at 57.15 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7321,7 +8119,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 86.36 102.87 0)
+			(at 57.15 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7329,7 +8127,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 107.95 0)
+			(at 57.15 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7338,7 +8136,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 107.95 0)
+			(at 57.15 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7347,7 +8145,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 86.36 107.95 0)
+			(at 57.15 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7660,9 +8458,75 @@
 			(uuid "72acf492-1794-4167-89ab-04930c976568")
 		)
 		(instances
-			(project ""
+			(project "plotting_robot"
 				(path "/8ab1d563-03d3-47af-a68f-54116951f57e"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 118.11 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3e58482-f097-4e07-99a0-c20ccdfe908f")
+		(property "Reference" "#PWR026"
+			(at 118.11 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 118.11 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 118.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52072019-49a8-4a0f-9f30-e513696f884d")
+		)
+		(instances
+			(project "plotting_robot"
+				(path "/8ab1d563-03d3-47af-a68f-54116951f57e"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -7932,7 +8796,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0805,100nF")
-		(at 97.79 113.03 0)
+		(at 66.04 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7941,7 +8805,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc82f28b-3882-42d4-847d-38e56b094dd5")
 		(property "Reference" "C6"
-			(at 100.33 110.4899 0)
+			(at 68.58 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7950,7 +8814,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 100.33 113.03 0)
+			(at 68.58 111.76 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7959,7 +8823,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_0805"
-			(at 96.012 113.03 90)
+			(at 64.262 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7968,7 +8832,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21B104KCFNNNE_C28233.pdf"
-			(at 97.79 113.03 0)
+			(at 66.04 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7977,7 +8841,7 @@
 			)
 		)
 		(property "Description" "100V 100nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 97.79 113.03 0)
+			(at 66.04 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7986,7 +8850,7 @@
 			)
 		)
 		(property "LCSC" "C28233"
-			(at 97.79 113.03 0)
+			(at 66.04 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7995,7 +8859,7 @@
 			)
 		)
 		(property "Stock" "1168020"
-			(at 97.79 113.03 0)
+			(at 66.04 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8004,7 +8868,7 @@
 			)
 		)
 		(property "Price" "0.009USD"
-			(at 97.79 113.03 0)
+			(at 66.04 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8013,7 +8877,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 97.79 113.03 0)
+			(at 66.04 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8022,7 +8886,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 97.79 113.03 0)
+			(at 66.04 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8031,7 +8895,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 97.79 113.03 0)
+			(at 66.04 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8040,7 +8904,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 97.79 113.03 0)
+			(at 66.04 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8049,7 +8913,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 97.79 113.03 0)
+			(at 66.04 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8058,7 +8922,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 97.79 113.03 0)
+			(at 66.04 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8067,7 +8931,7 @@
 			)
 		)
 		(property "Part" "CL21B104KCFNNNE"
-			(at 97.79 113.03 0)
+			(at 66.04 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8076,7 +8940,7 @@
 			)
 		)
 		(property "Voltage Rated" "100V"
-			(at 100.33 115.57 0)
+			(at 68.58 114.3 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -8085,7 +8949,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 97.79 113.03 0)
+			(at 66.04 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8094,7 +8958,7 @@
 			)
 		)
 		(property "Capacitance" "100nF"
-			(at 97.79 113.03 0)
+			(at 66.04 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8103,7 +8967,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 97.79 113.03 0)
+			(at 66.04 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8145,7 +9009,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "B5B-XH-A(LF)(SN)"
 			(at 255.27 43.1799 0)
 			(effects
 				(font
@@ -8154,7 +9018,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical"
 			(at 247.904 34.036 0)
 			(effects
 				(font
@@ -8181,6 +9045,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C157991"
+			(at 237.49 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "48c69e8a-a969-4bab-adda-2e4e89f51678")
 		)
@@ -8197,7 +9070,7 @@
 			(uuid "a4f5b3da-9433-40a6-9c98-bc7d8fc5d015")
 		)
 		(instances
-			(project ""
+			(project "plotting_robot"
 				(path "/8ab1d563-03d3-47af-a68f-54116951f57e"
 					(reference "J1")
 					(unit 1)
@@ -8552,7 +9425,7 @@
 			(uuid "a21f6ae4-b080-4bac-8269-fbe99eb122fa")
 		)
 		(instances
-			(project ""
+			(project "plotting_robot"
 				(path "/8ab1d563-03d3-47af-a68f-54116951f57e"
 					(reference "R1")
 					(unit 1)
@@ -8562,7 +9435,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:1206,10uF")
-		(at 63.5 113.03 0)
+		(at 34.29 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8571,7 +9444,7 @@
 		(fields_autoplaced yes)
 		(uuid "f6d729c6-b1b5-499a-9a46-2a30cedfc7ad")
 		(property "Reference" "C1"
-			(at 66.04 110.4899 0)
+			(at 36.83 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8580,7 +9453,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 66.04 113.03 0)
+			(at 36.83 111.76 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -8589,7 +9462,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_1206"
-			(at 61.722 113.03 90)
+			(at 32.512 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8598,7 +9471,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf"
-			(at 63.5 113.03 0)
+			(at 34.29 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8607,7 +9480,7 @@
 			)
 		)
 		(property "Description" "50V 10uF X5R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 63.5 113.03 0)
+			(at 34.29 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8616,7 +9489,7 @@
 			)
 		)
 		(property "LCSC" "C13585"
-			(at 63.5 113.03 0)
+			(at 34.29 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8625,7 +9498,7 @@
 			)
 		)
 		(property "Stock" "3698334"
-			(at 63.5 113.03 0)
+			(at 34.29 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8634,7 +9507,7 @@
 			)
 		)
 		(property "Price" "0.035USD"
-			(at 63.5 113.03 0)
+			(at 34.29 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8643,7 +9516,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 63.5 113.03 0)
+			(at 34.29 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8652,7 +9525,7 @@
 			)
 		)
 		(property "Minimum Qty" "5"
-			(at 63.5 113.03 0)
+			(at 34.29 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8661,7 +9534,7 @@
 			)
 		)
 		(property "Attrition Qty" "4"
-			(at 63.5 113.03 0)
+			(at 34.29 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8670,7 +9543,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 63.5 113.03 0)
+			(at 34.29 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8679,7 +9552,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 63.5 113.03 0)
+			(at 34.29 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8688,7 +9561,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 63.5 113.03 0)
+			(at 34.29 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8697,7 +9570,7 @@
 			)
 		)
 		(property "Part" "CL31A106KBHNNNE"
-			(at 63.5 113.03 0)
+			(at 34.29 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8706,7 +9579,7 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 66.04 115.57 0)
+			(at 36.83 114.3 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -8715,7 +9588,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 63.5 113.03 0)
+			(at 34.29 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8724,7 +9597,7 @@
 			)
 		)
 		(property "Capacitance" "10uF"
-			(at 63.5 113.03 0)
+			(at 34.29 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8733,7 +9606,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X5R"
-			(at 63.5 113.03 0)
+			(at 34.29 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8748,7 +9621,7 @@
 			(uuid "da478587-561b-44e6-8569-0be26cd00202")
 		)
 		(instances
-			(project ""
+			(project "plotting_robot"
 				(path "/8ab1d563-03d3-47af-a68f-54116951f57e"
 					(reference "C1")
 					(unit 1)
@@ -8889,6 +9762,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Barrel_Jack_Switch")
+		(at 88.9 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcd3df43-1e61-4a30-9e9c-6ebf989dcbdc")
+		(property "Reference" "J4"
+			(at 88.9 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Barrel_Jack_Switch"
+			(at 88.9 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:DC-005"
+			(at 90.17 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Barrel Jack with an internal switch"
+			(at 88.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6ab6f86-b52c-4f29-995f-2eda75f39a27")
+		)
+		(pin "3"
+			(uuid "69a19940-f9ea-4bd8-8dfc-0823fed3a12a")
+		)
+		(pin "2"
+			(uuid "616d0e37-54de-4209-8774-b464abb4047c")
+		)
+		(instances
+			(project "plotting_robot"
+				(path "/8ab1d563-03d3-47af-a68f-54116951f57e"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Library:header_sg90")
 		(at 149.86 73.66 0)
 		(unit 1)
@@ -8916,7 +9860,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 160.274 70.866 0)
 			(effects
 				(font
@@ -8953,7 +9897,7 @@
 			(uuid "4f143c1f-dcbc-43e3-9224-ef21d3f91fb4")
 		)
 		(instances
-			(project ""
+			(project "plotting_robot"
 				(path "/8ab1d563-03d3-47af-a68f-54116951f57e"
 					(reference "J3")
 					(unit 1)
@@ -8963,7 +9907,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0805,100nF")
-		(at 74.93 113.03 0)
+		(at 43.18 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8972,7 +9916,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd9c64b6-e547-4733-8949-27adff7c1922")
 		(property "Reference" "C4"
-			(at 77.47 110.4899 0)
+			(at 45.72 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8981,7 +9925,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 77.47 113.03 0)
+			(at 45.72 111.76 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -8990,7 +9934,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_0805"
-			(at 73.152 113.03 90)
+			(at 41.402 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8999,7 +9943,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21B104KCFNNNE_C28233.pdf"
-			(at 74.93 113.03 0)
+			(at 43.18 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9008,7 +9952,7 @@
 			)
 		)
 		(property "Description" "100V 100nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 74.93 113.03 0)
+			(at 43.18 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9017,7 +9961,7 @@
 			)
 		)
 		(property "LCSC" "C28233"
-			(at 74.93 113.03 0)
+			(at 43.18 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9026,7 +9970,7 @@
 			)
 		)
 		(property "Stock" "1168020"
-			(at 74.93 113.03 0)
+			(at 43.18 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9035,7 +9979,7 @@
 			)
 		)
 		(property "Price" "0.009USD"
-			(at 74.93 113.03 0)
+			(at 43.18 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9044,7 +9988,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 74.93 113.03 0)
+			(at 43.18 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9053,7 +9997,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 74.93 113.03 0)
+			(at 43.18 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9062,7 +10006,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 74.93 113.03 0)
+			(at 43.18 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9071,7 +10015,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 74.93 113.03 0)
+			(at 43.18 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9080,7 +10024,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 74.93 113.03 0)
+			(at 43.18 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9089,7 +10033,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 74.93 113.03 0)
+			(at 43.18 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9098,7 +10042,7 @@
 			)
 		)
 		(property "Part" "CL21B104KCFNNNE"
-			(at 74.93 113.03 0)
+			(at 43.18 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9107,7 +10051,7 @@
 			)
 		)
 		(property "Voltage Rated" "100V"
-			(at 77.47 115.57 0)
+			(at 45.72 114.3 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9116,7 +10060,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 74.93 113.03 0)
+			(at 43.18 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9125,7 +10069,7 @@
 			)
 		)
 		(property "Capacitance" "100nF"
-			(at 74.93 113.03 0)
+			(at 43.18 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9134,7 +10078,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 74.93 113.03 0)
+			(at 43.18 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9149,7 +10093,7 @@
 			(uuid "1f5d96c9-95d2-4af3-a21e-0a6f6e0d82b7")
 		)
 		(instances
-			(project ""
+			(project "plotting_robot"
 				(path "/8ab1d563-03d3-47af-a68f-54116951f57e"
 					(reference "C4")
 					(unit 1)
@@ -9159,7 +10103,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 63.5 107.95 0)
+		(at 34.29 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9168,7 +10112,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe467fa8-0cfb-4b39-8c98-0fb364c4d746")
 		(property "Reference" "#PWR01"
-			(at 63.5 111.76 0)
+			(at 34.29 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9177,7 +10121,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 63.5 102.87 0)
+			(at 34.29 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9185,7 +10129,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 107.95 0)
+			(at 34.29 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9194,7 +10138,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 107.95 0)
+			(at 34.29 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9203,7 +10147,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 63.5 107.95 0)
+			(at 34.29 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9215,7 +10159,7 @@
 			(uuid "1790edb3-997e-464f-aa70-4720e397919a")
 		)
 		(instances
-			(project ""
+			(project "plotting_robot"
 				(path "/8ab1d563-03d3-47af-a68f-54116951f57e"
 					(reference "#PWR01")
 					(unit 1)
