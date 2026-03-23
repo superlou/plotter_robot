@@ -1,0 +1,11 @@
+Comment,Designator,Footprint,LCSC,Quantity
+100nF,"C10,C3,C4,C6,C8",C_0805,C28233,5
+10kΩ,"R1,R2",R_0805,C17414,2
+10uF,"C1,C2,C5,C7,C9",C_1206,C13585,5
+B5B-XH-A(LF)(SN),"J1,J2",JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical,C157991,2
+BSS138,Q2,Q_SOT-23,C7420339,1
+ULN2003ADR,"U2,U4",SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL,C7512,2
+~,J3,PinHeader_1x03_P2.54mm_Vertical,,1
+Barrel_Jack_Switch,J4,DC-005,,1
+Conn_01x02_Pin,J5,PinHeader_1x02_P2.54mm_Vertical,,1
+~,U1,esp32_c3_oled,,1

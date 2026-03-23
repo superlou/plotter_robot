@@ -6219,6 +6219,360 @@
 			)
 		)
 	)
+	(footprint "PCM_JLCPCB:Q_SOT-323"
+		(layer "F.Cu")
+		(uuid "d0915334-8c1e-4d2b-a697-a6d02e5f15f2")
+		(at 175.652 95.138 180)
+		(descr "SOT-323-3_L2.0-W1.3-P1.30-LS2.1-BR footprint")
+		(tags "SOT-323-3_L2.0-W1.3-P1.30-LS2.1-BR footprint C7420322")
+		(property "Reference" "Q1"
+			(at 0 -3.13 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f3c24e32-1484-48df-807e-3acfa201bbc1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "BSS138W"
+			(at 0 3.13 0)
+			(layer "F.Fab")
+			(uuid "89567c33-b648-44ac-8625-2039ec18ccae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2407151447_hongjiacheng-BSS138W_C28646265.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f25035e-403c-45a2-90c0-639df1cd8a6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "50V 220mA 3.5Ω@10V,0.22A 300mW 1.5V@250uA 1 N-Channel SOT-323 MOSFETs ROHS"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71bc03e3-fb4b-42d4-89e1-7d68fd162a20")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C28646265"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64ff5942-2c6b-45cb-a3a1-90ab3991b8fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Stock" "43933"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "048e0062-db79-466a-91c9-dfdf9c3e03d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "0.025USD"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f09ccdfa-633a-4fc2-af2c-ac1bb261b8bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a4db404-e003-4252-8cf0-0305559ec169")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Minimum Qty" "10"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae66a5eb-e534-4e36-b652-b443ce2dbea7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "169820f8-e428-407f-b9f0-43572c49ceb3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb37dd24-3047-4a15-b648-46cf47563e89")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Category" "Transistors/Thyristors,MOSFETs"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "742280a4-f9d4-4d9a-80b8-311a1ea1616f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b8abecc-cc20-44f9-a672-7110b6406c1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "BSS138W"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "852643bb-1388-4a87-93ba-7219796aa9f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Q_*")
+		(path "/4ff7cb12-047a-4837-82d5-fc6312fff1fe")
+		(sheetname "/")
+		(sheetfile "plotting_robot.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 0.7 1.13)
+			(end -0.7 1.13)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2ad1a34f-ed10-4c2d-8233-4f198412b2a5")
+		)
+		(fp_line
+			(start 0.7 -0.24)
+			(end 0.7 0.24)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a764ecae-d163-41ec-81fb-d8a335536a20")
+		)
+		(fp_line
+			(start 0.7 -1.13)
+			(end -0.7 -1.13)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8bf36dd6-5823-47b5-8604-69c5f7ac5f82")
+		)
+		(fp_line
+			(start -0.7 1.13)
+			(end -0.7 0.41)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6e36dc72-c749-4e1e-b76a-f7816c2f61d1")
+		)
+		(fp_line
+			(start -0.7 -1.13)
+			(end -0.7 -0.41)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c8269ca9-92de-45e1-9461-ded9194a4c00")
+		)
+		(fp_circle
+			(center 1 1.1)
+			(end 1.03 1.1)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "d65606e0-8dbe-42ea-90fc-44ce64beb29b")
+		)
+		(fp_line
+			(start 0.7 1.1)
+			(end -0.7 1.1)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "7dc191c3-77b4-4db1-b6c8-03b972eaced8")
+		)
+		(fp_line
+			(start 0.7 -1.1)
+			(end 0.7 1.1)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "e2c89bb4-fa90-4c73-85be-69620659f688")
+		)
+		(fp_line
+			(start -0.7 1.1)
+			(end -0.7 -1.1)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "c86a47f1-b001-4df1-bf18-63555c7ac1f1")
+		)
+		(fp_line
+			(start -0.7 -1.1)
+			(end 0.7 -1.1)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "f622f9d4-241d-4c00-94af-eac7cfd139b4")
+		)
+		(fp_circle
+			(center 1.45 0.65)
+			(end 1.55 0.65)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "2c7d1ded-2753-44e2-bb1c-bdfcda4dc3b6")
+		)
+		(fp_text user "REF**"
+			(at 0 5.13 0)
+			(layer "F.Fab")
+			(uuid "7989e6f6-a7ce-4789-88d6-ed258935803b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0.9 0.65 180)
+			(size 0.94 0.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 3 "+3V3")
+			(pinfunction "G")
+			(pintype "input")
+			(uuid "7c1ac3fb-db7e-48ce-b208-cde0c880261e")
+		)
+		(pad "2" smd roundrect
+			(at 0.9 -0.65 180)
+			(size 0.94 0.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 4 "/SERVO")
+			(pinfunction "S")
+			(pintype "passive")
+			(uuid "29ffe5e9-2d6f-4026-957d-dd3d77163c8a")
+		)
+		(pad "3" smd roundrect
+			(at -0.9 0 180)
+			(size 0.94 0.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 5 "Net-(J3-SIG)")
+			(pinfunction "D")
+			(pintype "passive")
+			(uuid "714db87a-9b5b-49cf-8f6e-cc826c55753e")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/SOT-323-3_L2.0-W1.3-P1.30-LS2.1-BR.step"
+			(offset
+				(xyz 0 0 0.05)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 -90)
+			)
+		)
+	)
 	(footprint "PCM_JLCPCB:C_0805"
 		(layer "F.Cu")
 		(uuid "d6ac2a74-0f17-4486-a8c8-48c0dfd69c00")
@@ -6679,7 +7033,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C7420339"
+		(property "LCSC" "C28646265"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6940,7 +7294,6 @@
 			)
 		)
 		(property ki_fp_filters "Q_*")
-		(path "/a9cd4b87-5f93-41b1-8de7-aec223f42506")
 		(sheetname "/")
 		(sheetfile "plotting_robot.kicad_sch")
 		(attr smd)
